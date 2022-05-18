@@ -1,0 +1,118 @@
+/* for styling */
+
+body{
+   background-image: url("./Image/joanna-kosinska-1_CMoFsPfso-unsplash.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.container {
+ text-align : center;
+ max-width: 100%;
+ 
+}
+ 
+table{
+margin : auto;
+ }
+
+button{
+    width: 147px;
+    height: 64.5px;
+    margin: 3px;
+    border-radius: 5px;
+    border: 1px solid #f1f3f4;
+    background-color: #f1f3f4;
+    font-size: 25px;
+    cursor: pointer;
+
+ }
+
+
+ button:active{
+    border : 2px solid #dce5e9;
+ }
+
+#input{
+   width: 594px;
+   height: 77px;
+   margin-bottom:  10px;
+   border-radius: 5px;
+   border: 1px solid #d4dce0;;
+   font-size: 35px;
+   padding: 0px 10px;
+   text-align: right;
+
+ }
+
+ .secondarybtn{
+     background-color:#dadce0;
+ }
+ .ansbtn {
+
+    background-color: #4285f4;
+    font-weight: 700;
+    color: white;
+  
+    
+ }
+
+ #backbtn{
+
+   background-color: #dadce0;
+   text-decoration-color: #dadce0;
+ }
+
+ @media screen and (max-width: 800px) {
+   button{
+     width: 15vw;
+     font-size: 4vw;
+     
+   }
+   #input{
+      width: 61vw;
+
+   }
+   #h1{
+      font-size: 6vw;
+      }
+
+   div #footer{
+         font-size: 2vw;
+   }
+ }
+
+
+
+.sec-4 {
+   display: flex;
+   justify-content: center;
+   padding: 30px;
+}
+
+.sec-4 p {
+   color: rgb(63, 3, 3);
+   position: relative;
+   font-size: 20px;
+}
+
+.sec-4 p::after {
+   content: '';
+   display: block;
+   width: 0;
+   height: 2px;
+   position: absolute;
+   right: 0;
+   bottom: -10px;
+   background-color: yellow;
+   transition: all .3s;
+}
+
+.sec-4 p:hover::after {
+   width: 100%;
+}
+
+/* hr {
+   opacity: 0.2;
+} */
+
+ 
